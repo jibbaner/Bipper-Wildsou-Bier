@@ -5,7 +5,7 @@ const beers = [
         h1: "DÜRRMÜHLI <span>BIO-LAGER.</span>",
         desc: "Gemacht für heisse Tage, ist Dürrmühli ein süffiges und erfrischendes Bier.",
         origin: "Am Dorfbach errichtete man eine vom Wasser des Laufes getriebene Mühle. Doch litt deren Leistung bei Trockenheit oft unter mangelnder Wasserführung des Baches, so dass im Laufe der Zeit die ganze Ortschaft am Bergfuss den Namen Dürrmühle erhielt.",
-        img: "assets/images/Dürrmühli 1.png",
+        img: "assets/Dürrmühli 1.png",
         stats: {
             gravity: "1.048 OG",
             ibu: "18 IBU",
@@ -23,7 +23,7 @@ const beers = [
         h1: "IISCHLEGLI <span>STARK & KALT.</span>",
         desc: "Das helle und leicht herbe Rezept. Dieses Bier muss man einfach mögen! Passt perfekt zu viel Sonnenschein und Party-Stimmung.",
         origin: "Bezeichnete das heutige Gebiet zwischen Hintergasse, Fuchs- und Rehweg. In diesem Gebiet wurden die ersten Biere unserer Brauerei gebraut.",
-        img: "assets/images/Iischlegli 1.png",
+        img: "assets/Iischlegli 1.png",
         stats: {
             gravity: "1.054 OG",
             ibu: "24 IBU",
@@ -41,7 +41,7 @@ const beers = [
         h1: "ABILON <span>BIO-AMBER.</span>",
         desc: "Schön in der Farbe und voll im Geschmack. Abilon ist ein Bier, das allen schmeckt.",
         origin: "Abilon weist auf einen Besitzer namens Abo hin. Der zweite Teil der Bezeichnung -lo, erinnert an Gebüsch oder Gehölz. Das dortige Wäldchen ist heute ein Feld namens «Oberfeld».",
-        img: "assets/images/Abilon 1.png",
+        img: "assets/Abilon 1.png",
         stats: {
             gravity: "1.052 OG",
             ibu: "20 IBU",
@@ -59,7 +59,7 @@ const beers = [
         h1: "SCHARNAGLE <span>DUNKLE SOU.</span>",
         desc: "Die dunkle Überraschung! Ein Bier so schwarz wie die Nacht, mit einem wahnsinnigen Aroma.",
         origin: "Benannt nach dem ehemaligen Waldgebiet Scharnaglen. Ein kräftiges Bier, das die Geschichte der Region in jedem Schluck trägt.",
-        img: "assets/images/Scharnagle 1.png",
+        img: "assets/Scharnagle 1.png",
         stats: {
             gravity: "1.056 OG",
             ibu: "22 IBU",
