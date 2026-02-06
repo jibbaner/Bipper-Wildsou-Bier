@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bipper Wildsou Bier | Handwerk aus der Region</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&family=JetBrains+Mono:wght@300;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="liquid-bg"></div>
+    <div class="grain"></div>
+    <div id="cursor-glow"></div>
+    <div class="suspension-blob"></div>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/images/Logo.png" alt="Bipper Wildsou Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#">Die Biere</a>
+            <a href="#">Brauerei</a>
+            <a href="#">Shop</a>
+            <a href="#">Kontakt</a>
+        </div>
+        <div class="tag">REGIONAL & BIO / 2026</div>
+    </nav>
+
+    <main>
+        <section class="hero-content">
+            <div class="tag animate-left" id="beer-type-tag">Bio-Lagerbier</div>
+            <h1 class="animate-left" id="beer-name">
+                DÜRRMÜHLI <span>BIO-LAGER.</span>
+            </h1>
+            <div class="hero-meta">
+                <p class="hero-description animate-left" id="beer-description">
+                    Gemacht für heisse Tage, ist Dürrmühli ein süffiges und erfrischendes Bier.
+                </p>
+                <div class="origin-story animate-left" id="beer-origin">
+                    Am Dorfbach errichtete man eine vom Wasser des Laufes getriebene Mühle. Doch litt deren Leistung bei
+                    Trockenheit oft unter mangelnder Wasserführung des Baches...
+                </div>
+                <div class="left-controls-container animate-left">
+                    <button class="cta-button">
+                        Jetzt Bestellen
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <div class="visual-nav-container">
+                        <div class="visual-nav" id="thumbnail-nav">
+                            <!-- Thumbnails will be injected by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottle-preview-container reveal-up" style="animation-delay: 0.4s">
+            <div class="product-slider" id="main-slider">
+                <div class="bottle-preview active" id="bottle-display">
+                    <img id="product-img" src="assets/images/Dürrmühli 1.png" alt="Dürrmühli">
+                </div>
+            </div>
+        </section>
+
+        <section class="data-sidebar reveal-up" style="animation-delay: 0.6s">
+            <div class="data-grid">
+                <div class="data-item animate-right">
+                    <span>01 / Stammwürze</span>
+                    <span id="stat-gravity">1.048 OG</span>
+                </div>
+                <div class="data-item animate-right">
+                    <span>02 / Bittere</span>
+                    <span id="stat-ibu">18 IBU</span>
+                </div>
+                <div class="data-item animate-right">
+                    <span>03 / Zertifizierung</span>
+                    <span id="stat-label">Bio Knospe</span>
+                </div>
+                <div class="data-item animate-right">
+                    <span>04 / Filtration</span>
+                    <span id="stat-filtration">Trüb (Natural)</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
